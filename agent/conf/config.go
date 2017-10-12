@@ -16,7 +16,7 @@ var Filename = []string{"/etc/rsyslog.conf", "/etc/rsyslog.d/log.conf"}
 
 const BaseUrl string = "http://***.***.***.***:8001/"
 
-var logFile = "sina_agent.log"
+var logFile = "agent.log"
 var DebugLog *log.Logger
 
 func init() {
